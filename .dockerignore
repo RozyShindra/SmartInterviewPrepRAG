@@ -1,0 +1,20 @@
+# .dockerignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.db
+*.sqlite3
+*.log
+
+# Ignore test, cache, and temp files
+*.pytest_cache/
+*.mypy_cache/
+*.coverage
+*.egg-info/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db

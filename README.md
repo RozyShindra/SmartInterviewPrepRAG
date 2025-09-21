@@ -26,19 +26,16 @@ A **smart interview preparation system** using **Retrieval-Augmented Generation 
 ## Quickstart
 
 ```bash
-# Clone repository
-git clone https://github.com/RozyShindra/Smart-Interview-Preparation-Q-A-System.git
-cd Smart-Interview-Preparation-Q-A-System
+# 1. Clone repository
+git clone https://github.com/RozyShindra/SmartInterviewPrepRAG.git
+cd SmartInterviewPrepRAG
 
-# Create and activate conda environment
-conda create -n rag_sys -y
-conda activate rag_sys
+# 2. Build Docker image 
+docker build -t smart-interview-prep-rag .
 
-# Install dependencies
-pip install -r requirements.txt
+# 3. Run the container (map port 5000 → 5000)
+docker run -p 5000:5000 smart-interview-prep-rag
 
-# Run Streamlit UI
-streamlit run app.py
 ```
 
 ---
@@ -50,6 +47,9 @@ Rozy, Tell me about yourself?
 
 **Helpful Answer:**
 I am Rozy Kumari, an AI/ML engineer with a strong background in mathematics and statistics. My expertise lies in solving complex problems across semiconductor manufacturing and research fields utilizing **NLP, Generative AI, and Optimization techniques**. Throughout my academic career, I have gained experience through **Internships, Research Work, GATE CS/IT exams**. I am particularly skilled in leveraging these technologies to solve intricate problems and innovate in real-world projects.
+
+<img width="1755" height="857" alt="image" src="https://github.com/user-attachments/assets/d0f235a8-4bd7-4b64-af32-998078a839a3" />
+
 
 ---
 

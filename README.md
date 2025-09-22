@@ -5,6 +5,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch\&logoColor=white)](https://pytorch.org/)
 [![LangChain](https://img.shields.io/badge/LangChain-2AB8FF?logo=langchain&logoColor=white)](https://www.langchain.com/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit\&logoColor=white)](https://streamlit.io/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A **smart interview preparation system** using **Retrieval-Augmented Generation (RAG)**. Users can input a **resume PDF** or **portfolio link**, and the system generates **technical, managerial, or HR interview questions and answers** using the **Qwen LLM**, with context retrieved via **FAISS vector database**.
